@@ -1,0 +1,51 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+div ul,
+div p {
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+div ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+    background-color: #304C89;
+    color: white;
+}
+
+div li a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #304C89;
+}
+
+body {
+    background-color: #CFD5DD;
+}
+
+div {
+    border-radius: 25px;
+    background-color: #A4B7DF;
+}
+
+img {
+    max-width: 95%;
+    border-radius: 15px;
+    border-color: black;
+}
+
+div p {
+    text-align: center;
+}
