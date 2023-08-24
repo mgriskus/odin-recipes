@@ -3,8 +3,8 @@
 }
 
 h1,
-div ul,
-div p {
+h2,
+.index-container p {
     text-align: center;
 }
 
@@ -12,18 +12,22 @@ h1 {
     text-transform: uppercase;
 }
 
-div ul {
+.index-container ul {
     list-style: none;
     padding-left: 0;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 25px;
-    background-color: #304C89;
+    background-color: #E3ECF3;
     color: white;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 8px;
 }
 
-div li a {
-    color: white;
+.index-container li a {
+    color: black;
 }
 
 a {
@@ -31,21 +35,28 @@ a {
     color: #304C89;
 }
 
-body {
-    background-color: #CFD5DD;
-}
-
-div {
+.index-container {
     border-radius: 25px;
-    background-color: #A4B7DF;
+    background-color: #A3CEF1;
 }
 
 img {
     max-width: 95%;
     border-radius: 15px;
-    border-color: black;
+    display: block;
+    margin: 0 auto;
 }
 
-div p {
-    text-align: center;
+.recipe-card {
+    max-width: 480px;
+    margin: 0 auto;
+    background-color: #A3CEF1;
+    border-radius: 25px;
+}
+
+.recipe-section {
+    background-color: #E3ECF3;
+    border-radius: 25px;
+    padding: 4px;
+    margin: 8px;
 }
